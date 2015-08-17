@@ -6,7 +6,7 @@ layout: default
   {% for post in paginator.posts %}
   <div class="post">
     <h2 class="post-title">
-	 <span> [{{ post.categories }}]&nbsp;</span> 
+	 <span> <{{ post.categories }}>&nbsp;</span> 
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
