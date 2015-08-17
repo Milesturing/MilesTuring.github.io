@@ -2,9 +2,9 @@
 layout: post
 categories: basics
 title: Lambda Calculus
-description: An introduction to lambda calculus
+description: Test with lambda calculus
 ---
  
-Test with lambda calculus
+An introduction to lambda calculus
 
 Now I am going to write some about lambda calculus
