@@ -6,7 +6,7 @@ description: The hard problem mentioned in last thread was solved. An elaborate 
 ---
  
 In the previous thread (dated 17 Aug 2015) we mentioned a problem of the different definitions
-of "way-below relation" which is hard to solve. This problem is solved on 19 Aug 2015 by the author by explicitly 
+of "way-below relation" which is hard to solve. This problem was solved on 19 Aug 2015 by author by explicitly 
 giving a counterexample where Definition 2 does not imply Definition 1.
  
 The construction of counterexample is as following: let M be the set of natural numbers (including element 0) with 
