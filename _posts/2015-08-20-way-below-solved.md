@@ -31,8 +31,7 @@ Suppose y <= sup(D). Because y = (inf, inf), with the only orders as shown above
 sup(D) must be (inf, inf), i.e. y = sup(D). Then D must either contain y or some element (i, inf). Let d = (i, inf).
 Therefore x <= (i, inf) = d.
  
-However, there is no open Set U with y is in U and x <= U (a shorthand for x <= z, for any z in U). Therefore, y is not
-in the interior of {z | x <= z} .
+However, there is no open Set U with y is in U and x <= U. Therefore, y is not in the interior of {z | x <= z}.
 
 To show this, we first realize U must take the form of {(j, inf) | j >= a}, where a is a fixed natural number; or just
 U = {y}, due to the requirement of its upwards closure. In the former case, we construct D = {(a, i) | i is any natural 
