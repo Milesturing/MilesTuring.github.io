@@ -34,12 +34,12 @@ $sup(D)$ must be $(inf, inf)$, *i.e.* $y = sup(D)$. Then $D$ must either contain
 $d = (i, inf)$. Therefore $x <= (i, inf) = d$.
  
 However, there is no open Set $U$ with $y$ is in $U$ and $x <= U$. Therefore, $y$ is not in the interior of 
-$\left\\{z | x <= z \right\\}$.
+$\\{z | x <= z \\}$.
 
-To show this, we first realize U must take the form of $\left\\{(j, inf) | j \geq a \right\\}$, where a is a fixed 
+To show this, we first realize U must take the form of $\\{(j, inf) | j \geq a \\}$, where a is a fixed 
 natural number; or just $U = {y}$, due to the requirement of its upwards closure. In the former case, we construct 
-$D = \left\\{(a, i) | i~is~any~natural~number \right\\}$, obviously $sup(D) = (a, inf)$ is in $U$, but there is no 
-element in both $D$ and $U$. In the latter case, we construct $D = \left\\{(i, inf) | i~is~any~natural~number \right\\}$
+$D = \\{(a, i) | i$ is any natural number $\\}$, obviously $sup(D) = (a, inf)$ is in $U$, but there is no 
+element in both $D$ and $U$. In the latter case, we construct $D = \\{(i, inf) | i$ is any natural number $\\}$
 , obviously $sup(D) = y$ is in $U$, but again $D$ does not intersect $U$. Therefore, it contradicts the openness of $U$.
 
 
