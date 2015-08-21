@@ -6,7 +6,7 @@ description: The hard problem mentioned in last thread was solved. An elaborate 
 ---
  
 In the previous thread (dated *17 Aug 2015*) we mentioned a problem of the different definitions
-of "**way-below relation**" which is hard to solve. This problem was solved on *19 Aug 2015* by author by 
+of "way-below relation" which is hard to solve. This problem was solved on *19 Aug 2015* by author by 
 explicitly giving a counterexample where *Definition 2* does not imply *Definition 1*.
  
 The construction of counterexample is as following: let M be the set of natural numbers (including element zero) with 
@@ -15,11 +15,11 @@ an extra member: $inf$, which means infinity.
 Let us consider the Cartesian product set $ M \times M = \\{ (m, n) | m, n \in M \\} $ with the only 
 orders generated from (with transitivity):
  
-  $(a, i) \le (a, j)$      , if $i \le j$ or $j = inf$, and $ a $ is any natural number but not $inf$
+1. $(a, i) \le (a, j)$      , if $i \le j$ or $j = inf$, and $ a $ is any natural number but not $inf$
   
-  $(i, inf) \le (j, inf)$  , if $i \le j$ or $j = inf$
+2. $(i, inf) \le (j, inf)$  , if $i \le j$ or $j = inf$
   
-  $(i, 0) \le (j, 0)$      , if $i \le j$ or $j = inf$
+3. $(i, 0) \le (j, 0)$      , if $i \le j$ or $j = inf$
 
 The last line above being to ensure that there is a least element (bottom). It is obvious now that the set
 $M \times M$ forms a *cpo*.
