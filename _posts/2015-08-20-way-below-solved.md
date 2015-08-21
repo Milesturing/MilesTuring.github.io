@@ -15,7 +15,7 @@ an extra member: $inf$, which means infinity.
 Let us consider the Cartesian product set $ M \times M = \\{ (m, n) | m, n \in M \\} $ with the only 
 orders generated from (with transitivity):
  
-1. $(a, i) \le (a, j)$      , if $i \le j$ or $j = inf$, and $ a $ is any natural number but not $inf$
+1. $(a, i) \le (a, j)$      , if $i \le j$ or $j = inf$, and $ a $ is any natural number not $inf$
   
 2. $(i, inf) \le (j, inf)$  , if $i \le j$ or $j = inf$
   
@@ -31,12 +31,12 @@ $x \le d$:
 
 Suppose $y \le sup(D)$. Because $y = (inf, inf)$, with the only orders as shown above and their transitive closures,
 $sup(D)$ must be $(inf, inf)$, *i.e.* $y = sup(D)$. Then $D$ must either contain $y$ or some element $(i, inf)$. Let 
-$d = (i, inf)$. Therefore $x \le (i, inf) = d$.
+$d = (i, inf)$ or $d = y$. Therefore $x \le (i, inf) = d$ or $x \le y = d$.
  
 However, there is no open Set $U$ with $y$ is in $U$ and $x <= U$. Therefore, $y$ is not in the interior of 
 $\\{z | x <= z \\}$.
 
-To show this, we first realize U must take the form of $\\{(j, inf) | j \ge a \\}$, where a is a fixed 
+To show this, we first realize U must take the form of $\\{(j, inf) | a \le j \\}$, where $a$ is a fixed 
 natural number; or just $U = {y}$, due to the requirement of its upwards closure. In the former case, we construct 
 $D = \\{(a, i) | i$ is any natural number$\\}$, obviously $sup(D) = (a, inf)$ is in $U$, but there is no 
 element in both $D$ and $U$. In the latter case, we construct $D = \\{(i, inf) | i$ is any natural number$\\}$
