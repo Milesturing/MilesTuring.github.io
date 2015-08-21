@@ -37,7 +37,7 @@ However, there is no open Set $U$ with $y$ is in $U$ and $x \le U$. Therefore, $
 $\\{z | x \le z \\}$.
 
 To show this, we first realize U must take the form of $\\{(j, inf) | a \le j \\}$, where $a$ is a fixed 
-natural number; or just $U = {y}$, due to the requirement of its upwards closure. In the former case, we construct 
+natural number; or just $U = \\{ y \\}$, due to the requirement of its upwards closure. In the former case, we construct 
 $D = \\{(a, i) | i$ is any natural number$\\}$, obviously $sup(D) = (a, inf)$ is in $U$, but there is no 
 element in both $D$ and $U$. In the latter case, we construct $D = \\{(i, inf) | i$ is any natural number$\\}$
 , obviously $sup(D) = y$ is in $U$, but again $D$ does not intersect $U$. Therefore, it contradicts the openness of $U$.
