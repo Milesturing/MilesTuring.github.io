@@ -5,7 +5,7 @@ title: Problem with way-below relation solved
 description: The hard problem mentioned in last thread was solved. An elaborate counterexample is given to show the in-equivalence of two definitions.
 ---
  
-In the previous thread (dated *17 Aug 2015*) we mentioned a problem of the different definitions
+In the previous thread (dated *17 Aug 2015*) we discussed a problem of the different definitions
 of "way-below relation" which is hard to solve. This problem was solved on *19 Aug 2015* by author by 
 explicitly giving a counterexample where *Definition 2* does not imply *Definition 1*.
  
@@ -31,10 +31,10 @@ $x \le d$:
 
 Suppose $y \le sup(D)$. Because $y = (inf, inf)$, with the only orders as shown above and their transitive closures,
 $sup(D)$ must be $(inf, inf)$, *i.e.* $y = sup(D)$. Then $D$ must either contain $y$ or some element $(i, inf)$. Let 
-$d = (i, inf)$ or $d = y$. Therefore $x \le (i, inf) = d$ or $x \le y = d$.
+$d = y$ or $d = (i, inf)$. Therefore $x \le y = d$ or $x \le (i, inf) = d$.
  
-However, there is no open Set $U$ with $y$ is in $U$ and $x <= U$. Therefore, $y$ is not in the interior of 
-$\\{z | x <= z \\}$.
+However, there is no open Set $U$ with $y$ is in $U$ and $x \le U$. Therefore, $y$ is not in the interior of 
+$\\{z | x \le z \\}$.
 
 To show this, we first realize U must take the form of $\\{(j, inf) | a \le j \\}$, where $a$ is a fixed 
 natural number; or just $U = {y}$, due to the requirement of its upwards closure. In the former case, we construct 
