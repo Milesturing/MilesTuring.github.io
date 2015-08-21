@@ -22,7 +22,7 @@ orders generated from (with transitivity):
   $(i, 0) \le (j, 0)$      , if $i \le j$ or $j = inf$
 
 The last line above being to ensure that there is a least element (bottom). It is obvious now that the set
-$M \times M$ forms a cpo.
+$M \times M$ forms a *cpo*.
  
 We let $x$ be the element $(0, inf)$, $y$ be the element $(inf, inf)$.
  
