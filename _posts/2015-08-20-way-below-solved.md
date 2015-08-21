@@ -9,13 +9,13 @@ In the previous thread (dated 17 Aug 2015) we mentioned a problem of the differe
 of "way-below relation" which is hard to solve. This problem was solved on 19 Aug 2015 by author by explicitly 
 giving a counterexample where Definition 2 does not imply Definition 1.
  
-The construction of counterexample is as following: let M be the set of natural numbers (including element 0) with 
-an extra member: inf, which means infinity.
+The construction of counterexample is as following: let M be the set of natural numbers (including element zero) with 
+an extra member: $inf$, which means infinity.
 
-Let us consider the Cartesian product set $ M \times M ={ (m, n) | m, n \in M} $ with the only 
+Let us consider the Cartesian product set $ M \times M = \{ (m, n) | m, n \in M \} $ with the only 
 orders generated from (with transitivity):
  
-  $(a, i) \leq (a, j)$      , $if~i \leq j~or~j = inf$, and $a$ is any natural number but not inf
+  $(a, i) \leq (a, j)$      , if $ i \leq j $ or $ j = inf $, and $ a $ is any natural number but not $inf$
   
   $(i, inf) \leq (j, inf)$  , $if~i \leq j~or~j = inf$
   
