@@ -12,14 +12,14 @@ giving a counterexample where Definition 2 does not imply Definition 1.
 The construction of counterexample is as following: let M be the set of natural numbers (including element 0) with 
 an extra member: inf, which means infinity.
 
-Let us consider the Cartesian product set $ M \times M = \left\\{ (m, n) | m, n \in M \right\\} $ with the only orders generated from
-(with transitivity):
+Let us consider the Cartesian product set $ M \times M = \left\\{ (m, n) | m, n \in M \right\\} $ with the only 
+orders generated from (with transitivity):
  
-  (a, i) <= (a, j)      , if i <= j or j = inf, and a is any natural number other than inf
+  $(a, i) <= (a, j)$      , if i <= j or j = inf, and a is any natural number other than inf
   
-  (i, inf) <= (j, inf)  , if i <= j or j = inf
+  $(i, inf) <= (j, inf)$  , if i <= j or j = inf
   
-  (i, 0) <= (j, 0)      , if i <= j or j = inf
+  $(i, 0) <= (j, 0)$      , if i <= j or j = inf
 
 The last line above being to ensure that there is a least element (bottom). It is obvious now that the set M x M forms a cpo.
  
