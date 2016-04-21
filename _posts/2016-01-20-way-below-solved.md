@@ -47,8 +47,8 @@ Concluding the above, this example constitutes a counterexample where *Definitio
 the two definitions do not agree in this case. It can be shown that the two definitions are not even equivalent for Scott 
 domains.
 
-Comment: This result is non-trivial, and surveying the literature we found the counter-example was the similar as the one given 
-by C.E.Clark on SCS-21 meeting in 1976 according to page 111 of the book "A Compendium of Continuous Lattices".
+Comment: this result is non-trivial, and we found that the counter-example was the same as the one given 
+by C.E.Clark in 1976 on SCS-21 meeting according to the end of page 111 of the book "A Compendium of Continuous Lattices".
 
 
  
