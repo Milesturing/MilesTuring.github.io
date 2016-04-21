@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: math
-title: Problem with way-below relation solved
+title: Problem of way-below relation solved
 description: The hard problem mentioned in last thread was solved. An elaborate counterexample is given to show the in-equivalence of two definitions.
 ---
  
