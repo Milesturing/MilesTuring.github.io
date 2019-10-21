@@ -5,11 +5,11 @@ title: Problem of way-below relation solved
 description: The hard problem mentioned in last thread was solved. An elaborate counterexample is given to show the in-equivalence of two definitions.
 ---
  
-In the previous thread (dated *17 Dec 2015*) we discussed a problem of the different definitions
+In the previous thread (dated *17 Dec 2015*) we discussed the problem of the different definitions
 of "way-below relation" which is hard to solve. This problem was solved on *20 Dec 2015* by the author by 
 explicitly giving a counterexample where *Definition 2* does not imply *Definition 1*.
  
-The construction of counterexample is as following: let M be the set of natural numbers (including element zero) with 
+The construction of the counterexample is as follows: let M be the set of natural numbers (including element zero) with 
 an extra member: $inf$, which means infinity.
 
 Let us consider the Cartesian product set $ M \times M = \\{ (m, n) | m, n \in M \\} $ with the only 
@@ -24,7 +24,7 @@ orders generated from (with transitivity):
 The last line above being to ensure that there is a least element (bottom). It is obvious now that the set
 $M \times M$ forms a *cpo*.
  
-We let $x$ be the element $(0, inf)$, $y$ be the element $(inf, inf)$.
+We let $x$ be the element $(0, inf)$, and $y$ the element $(inf, inf)$.
  
 Then we first show that for every directed set $D$, $y \le sup(D)$ implies that there exists element $d$ in $D$, 
 $x \le d$:
@@ -33,7 +33,7 @@ Suppose $y \le sup(D)$. Because $y = (inf, inf)$, with the only orders as shown 
 $sup(D)$ must be $(inf, inf)$, *i.e.* $y = sup(D)$. Then $D$ must either contain $y$ or some element $(i, inf)$. Let 
 $d = y$ or $d = (i, inf)$. Therefore $x \le y = d$ or $x \le (i, inf) = d$.
  
-However, there is no open Set $U$ with $y$ is in $U$ and $x \le U$. Therefore, $y$ is not in the interior of 
+However, there is no open Set $U$ where $y$ is in $U$ and $x \le U$. Therefore, $y$ is not in the interior of 
 $\\{z | x \le z \\}$.
 
 To show this, we first realize U must take the form of $\\{(j, inf) | a \le j \\}$, where $a$ is a fixed 
@@ -47,8 +47,8 @@ Concluding the above, this example constitutes a counterexample where *Definitio
 the two definitions do not agree in this case. It can be shown that the two definitions are not even equivalent for Scott 
 domains.
 
-Comment: this result is non-trivial, and we found that the counter-example is similar as the one which was given 
-by C.E.Clark in 1976 on SCS-21 meeting according to the end of page 111 of the book "A Compendium of Continuous Lattices".
+Comment: this result is non-trivial, and we found that the counter-example is similar to the one which was given 
+by C.E.Clark in 1976 at the SCS-21 meeting according to the end of page 111 of the book "A Compendium of Continuous Lattices".
 
 
  
